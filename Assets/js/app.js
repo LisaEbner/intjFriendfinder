@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var result = 0;
-  var type = ["INTJ", "INTP"]
+  var type = ["INTJ", "INTP", "INTF", ENTJ]
   $('#submitSurvey').on("click", function(){
     console.log("CLICKED!")
     $('.answer').each((i,a)=>{
